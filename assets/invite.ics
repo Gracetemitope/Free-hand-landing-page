@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20200813T150000Z
+DTEND:20200813T161500Z
+DTSTAMP:20200811T124559Z
+ORGANIZER;CN=Microverse Students:mailto:microverse.org_bvrtia5mub1j98udj6as
+ 3dfmg4@group.calendar.google.com
+UID:63oquni4g10lol4tnls49grulc_R20200730T150000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=gracetemitope14@gmail.com;X-NUM-GUESTS=0:mailto:gracetemitope14@gma
+ il.com
+X-MICROSOFT-CDO-OWNERAPPTID:1177677693
+RECURRENCE-ID:20200813T150000Z
+CREATED:20190219T170610Z
+DESCRIPTION:Congratulations! You have been chosen among thousands of applic
+ ants to join our full-time software development program.<br><br>We will use
+  this call to tell you a bit more about our school and program\, and explai
+ n what to expect next in terms of finalizing your enrollment and getting yo
+ u onboarded. We will also leave time for some Q&amp\;A at the end so come p
+ repared with questions!<br><br><b>Remember\, this call is mandatory to join
+  the program.&nbsp\;</b><br><br>If you are not able to attend due to a pre-
+ existing commitment please&nbsp\;email <a href="mailto:gabysuarez@microvers
+ e.org">admissions@microverse.org</a>.<br><br><b>To join the call:</b><br><u
+ l><li><b>Join</b> the Zoom call (<u>from your&nbsp\;computer</u>\, not your
+  phone)&nbsp\;by clicking on the provided link in this calendar invite.&nbs
+ p\;<ul><li><b>Important</b>: Please use your email address as your "name" w
+ hen joining the Zoom meeting.&nbsp\;</li></ul></li><li><b>Enable</b> your w
+ ebcam (we want to see your lovely face!)</li><li><b>Mute</b> your microphon
+ e (this will help avoid background noise since we'll do all the talking at 
+ first)</li></ul><b>*If you haven't used Zoom before\, please join a couple 
+ of minutes ahead of time to download the necessary tools and avoid last-min
+ ute technical delays*</b><br><b><br></b><br>Finally\, we'll use <a href="ht
+ tps://airtable.com/shr7WqNG802UADaK1">this form</a> to take attendance. The
+  password will be provided on the call.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit
+  this section of the description.\n\nView your event at https://www.google.
+ com/calendar/event?action=VIEW&eid=NjNvcXVuaTRnMTBsb2w0dG5sczQ5Z3J1bGNfMjAy
+ MDA4MTNUMTUwMDAwWiBncmFjZXRlbWl0b3BlMTRAbQ&tok=NjcjbWljcm92ZXJzZS5vcmdfYnZy
+ dGlhNW11YjFqOTh1ZGo2YXMzZGZtZzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbWQwYzA2MDQ
+ 3Y2MzNWI1NzQ0M2JmNmUyMzYyMWU1Zjc1MTEwMjdmOGM&ctz=Africa%2FLagos&hl=en&es=1.
+ \n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~::~:~::-
+LAST-MODIFIED:20200811T124557Z
+LOCATION:https://zoom.us/j/92536113696
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Microverse Acceptance Call
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

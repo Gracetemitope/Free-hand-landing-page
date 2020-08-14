@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    margin-left: 10%;
+
+}
+
+.main {
+    /* margin-left: 10%; */
+    margin-right: 5%;
+}
+
+nav {
+    /* position: absolute; */
+    margin-top: 50px;
+    background: transparent;
+    color: #16133D;
+    height: 80px;
+    width: 1155px;
+}
+nav .logo {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px
+}
+a {
+    text-decoration: none;
+    color: #16133D;
+}
+nav ul{
+    float: right;
+    margin-right: 10%;
+  }
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    line-height: 40px
+
+}
+.nav-button {
+    margin-left: 100px;
+}
+nav ul li button {
+    width: 119px;
+    height: 48px;
+    border: 2px solid #16133D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #16133D;
+    background-color: transparent;
+}
+.log-in{
+    background: #16133D;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.border-bottom {
+    width: inherit;
+    border: 1px solid #f9f9fa;
+    margin-top: -10px;
+}
+.first-container {
+    display: flex;
+    margin-left: -50px;
+    width: 1155px;
+    justify-content: space-evenly;
+}
+.first-container > div {
+    width: 500px;
+    height: 350px;
+    margin-top: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+.heading {
+    /* line-height: 68px; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.heading h3 {
+    line-height: 68px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+}
+.heading p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 36px;
+    color: #183B56;
+}
+.heading .view, .learn1 {
+    background: #007FFC;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.learn1 {
+    border: 2px solid #007FFC;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #007FFC;
+    margin-left: 10px;
+}
+.first-container .rectangle-1 {
+    /* width: 500px; */
+    /* height: 400px; */
+    background-image: url("./assets/Rectangle.png");
+    background-size: cover;
+}
+article {
+    margin-top: 70px;
+    margin-left: inherit;
+    line-height: 40px;
+}
+.services, .tips-for-you, .plans {
+    margin-top: 4%;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+
+}
+.services > div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    justify-content: space-evenly;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    /* flex: 1; */
+    /* margin-left: 10%; */
+}
+a:hover {
+    color: red;
+    font-size: 24px;
+    transition: all 1s ease-out;
+}
+.services > div .img-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #E5EAF4;
+    align-items: center;
+   margin-left: 15%;
+
+}
+.services > div p {
+    margin-left: 15%;
+}
+.services > div > div > img {
+    /* align-items: center; */
+    margin: 8.5px;
+}
+.services button {
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin-left: 8%;
+}
+.tips-for-you > div:nth-child(1) {
+    width: 470px;
+    height: 320px;
+    background-image: url("./assets/Rectangle\ \(2\).png");
+    background-size: cover;
+}
+.tips-for-you > div:nth-child(2) {
+    width: 470px;
+    height: 320px;
+    background-image: url("./assets/Rectangle\ \(1\).png");
+    background-size: cover;
+
+}
+.tips-for-you h2 {
+    width: 450px;
+    /* text-align: center; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 45%;
+    margin-left: 10%;
+}
+.plans > div  {
+    width: 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.plans > div:nth-child(1) {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    border-top: 3px solid #007FFC ;
+}
+.plans > div:nth-child(2) {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    border-top: 3px solid darkolivegreen ;
+}
+.plans > div:nth-child(3) {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    border-top: 3px solid red ;
+}
+.plans > div > p:nth-child(1) {
+    margin-top: 4%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #16133D;
+
+}
+.plans > div > p:nth-child(2) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #007FFC;
+}
+.plans > div > p:nth-child(2) span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #5A7184;
+}
+.plans > div > p:nth-child(3) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #7690A8;
+}
+.plans button {
+    border: 2px solid #16133D;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 30%;
+}
+.started-img {
+    width: auto;
+    margin-top: 5%;
+    margin-right: 10%;
+    height: 350px;
+    background-image: url('./assets/Ads.png');
+    background-size: cover;
+}
+.footer {
+    width: auto;
+    background: #16133D;
+    height: 400px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 5%;
+}
+.footer .wrapper {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.wrapper > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 230px;
+    height: 150px;
+}
+.wrapper ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.wrapper .logo {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+}
+.wrapper i {
+    background: #EFEEF3;
+    border-radius: 5px;
+    color: black;
+    padding: 12px;
+}

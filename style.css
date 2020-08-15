@@ -485,5 +485,7 @@ a:hover {
     .our-services ul li:nth-child(1) {
         margin-top: 20px;
     }
-    
+    .footer .wrapper {
+        margin-left: 0px;
+    }
 }
